@@ -1,0 +1,19 @@
+{
+  "name": "try-prettier",
+  "version": "1.0.0",
+  "description": "Quick and dirty REPL for prettier (https://github.com/jlongster/prettier)",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack src/index.js bundle.js"
+  },
+  "keywords": ["prettier", "repl", "try prettier"],
+  "author": "Mikael Brevik <mikaelbre@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "brace": "^0.9.1",
+    "prettier": "0.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.3"
+  }
+}

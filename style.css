@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body {
+  height: 100%;
+}
+
+.header {
+  height: 30px;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+  background: #1D1F21;
+  z-index: 9999;
+}
+
+.header h1 {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.header h1,
+.header a {
+  color: #C5C8C6;
+}
+
+.container {
+  padding-top: 30px;
+  position: relative;
+  height: 100%;
+}
+#editor, #output {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+}
+#editor {
+  left: 0;
+}
+#output {
+  left: 50%;
+}
