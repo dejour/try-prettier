@@ -16,11 +16,10 @@ html, body {
   height: 30px;
   display: flex;
   width: 100%;
-  position: absolute;
-  top: 0;
-
   background: #1D1F21;
-  z-index: 9999;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 1rem;
 }
 
 .header h1 {
@@ -34,15 +33,14 @@ html, body {
 }
 
 .container {
-  padding-top: 30px;
   position: relative;
-  height: 100%;
+  height: calc(100% - 30px);
 }
 #editor, #output {
   width: 50%;
   height: 100%;
   position: absolute;
-  top: 30px;
+  top: 0;
   bottom: 0;
 }
 #editor {
