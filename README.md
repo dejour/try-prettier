@@ -1,4 +1,8 @@
-# Quick and dirty REPL for [prettier](https://github.com/jlongster/prettier)
+# REPL/playground for [prettier](https://github.com/jlongster/prettier)
+
+Official implementation suggested. Check out https://github.com/jlongster/prettier/pull/122
+
+---
 
 Set up a quick and dirty REPL based on the [Babel REPL](https://github.com/babel/babel.github.io)
 just to be able to play around with the awesome [prettier](https://github.com/jlongster/prettier) package.
